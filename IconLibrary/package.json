@@ -1,0 +1,20 @@
+{
+    "name": "iconlibrary",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "easely create and add your own icons to react application",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "github.com/Devincenzi/IconLibrary"
+    },
+    "author": "Devincenzi",
+    "license": "ISC",
+    "dependencies": {
+        "svgo": "^2.8.0",
+        "xml2js": "^0.4.23"
+    }
+}
