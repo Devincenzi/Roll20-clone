@@ -15,24 +15,23 @@ const loadModule = async (modulePath) => {
     }
   }
 
-async function makeImports() {
-    const importedModule = await loadModule('./minIcons/minIcons.js');
-    dictionary = importedModule.default;
-}
-
-export const lookupIcon = async (iconName)=>{
+export async function buildLookupIcon() {
     if(!fs.existsSync(pathFile)){
-        await buildFile();
-        await makeImports();
-        
-        return dictionary[iconName];
+      await buildFile();        
     }
 
-    if(Object.keys(dictionary).length === 0){
-        await makeImports();
-
-        return dictionary[iconName];
-    }
-
-    return dictionary[iconName];    
+    const importedModule = await loadModule('./minIcons/minIcons.js');
+    return importedModule.default;
 }
+
+// export const lookupIcon = async (iconName)=>{
+
+
+//     if(Object.keys(dictionary).length === 0){
+//         await makeImports();
+
+//         return dictionary[iconName];
+//     }
+
+//     return dictionary[iconName];    
+// }

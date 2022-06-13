@@ -1,5 +1,11 @@
-import {lookupIcon} from './dictionary.js';
+import {buildLookupIcon} from './dictionary.js';
 
-//search data of named icon
-lookupIcon("squareroot").then(e => console.log("index: ",e));
-lookupIcon("divide").then(e => console.log("index: ",e));
+let dictionary = {};
+function initializeDictionary(){
+    const returnedDictionary = buildLookupIcon();
+    returnedDictionary.then(function(e){
+        dictionary = e;
+    });
+}
+
+initializeDictionary();
