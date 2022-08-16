@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Roll20-next
 # Dependencies
   # bootstrap: ^5.2.0,
