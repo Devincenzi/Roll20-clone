@@ -1,4 +1,4 @@
-Roll20-clone uses react-bootstrap v2.4 and bootstrap v5.2 for layout and serverless-mysql v1.5.4 to connect a local mysql database. 
+Roll20-next uses react-bootstrap v2.4 and bootstrap v5.2 for layout and serverless-mysql v1.5.4 to connect a local mysql database. 
 It's to be a website where you play d&d with your friends with minimun effort or concern about updating your character sheet, applying all feats and calculating damage.
 For example, when you upgrade your Paladin to level 2, you get the Heal Hands already calculated (paladin lvl * charism modifier) and you cannot spent more at a day, same with Smite Evil.
 
