@@ -1,0 +1,8 @@
+.dialogWindow {
+    position: absolute;
+    border: 1px black solid;
+    border-radius: 5px;
+    top: 10%;
+    left: 10%;
+    z-index: 1010;
+}
