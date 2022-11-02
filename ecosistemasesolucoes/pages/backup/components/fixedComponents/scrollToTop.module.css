@@ -1,0 +1,15 @@
+.toTopBtn {
+    position: fixed;
+    bottom: 15px;
+    right: 50%;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: rgba(51, 51, 51, 0.749);
+    color: white;
+    cursor: pointer;
+}
+
+.toTopBtn:hover {
+    background-color: rgb(31, 31, 31);
+}

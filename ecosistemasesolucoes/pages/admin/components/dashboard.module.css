@@ -1,0 +1,43 @@
+.sidebar {
+    min-height: 100vh;
+    z-index: 100;
+    padding: 10px 0px;
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+    color: white;
+    font-weight: 500;
+}
+
+.sidebarLink {
+    text-decoration: none;
+    width: 100%;
+    padding: 15px 15px;
+    color: whitesmoke;
+    display: block;
+}
+
+.sidebarLink:hover {
+    text-decoration: none;
+    background: linear-gradient(to right, #36D1DC, #5B86E5);
+    color: #000;
+}
+
+.sidebarLink:active {
+    text-decoration: none;
+    background: linear-gradient(to right, #36D1DC, #5B86E5);
+    color: #000;
+}
+
+.sidebarLink:focus {
+    text-decoration: none;
+    background: linear-gradient(to right, #36D1DC, #5B86E5);
+    color: #000;
+}
+
+.topbar {
+    background-color: #fafafa;
+    margin-left: -24px;
+}
+
+.content {
+    background: #ddd;
+}

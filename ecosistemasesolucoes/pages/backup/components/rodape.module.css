@@ -1,0 +1,12 @@
+.rodape {
+    background: linear-gradient(to right, #00d2ff, #3a7bff);
+    padding: 15px 45px;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.rodapeText {
+    background: linear-gradient(to right, #000, #fff);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
